@@ -1,0 +1,234 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: rgb(245, 244, 244);
+}
+.navbar{
+    background-color:#4ab409;
+    color: white;
+
+    a,li{
+        color: white;
+    }
+
+
+    .dropdown-btn{
+        .dropdown-toggle{
+            color: white;
+        }
+        a,li{
+            color: black;
+        }
+    }
+
+
+    .social-icons{
+
+        i{
+            background-color:rgb(245, 244, 244) ;
+            color: black;
+            padding: 8px;
+            border-radius: 2px;
+        }
+    }
+}
+
+
+
+.hero-right{
+    margin-top: 120px;
+    background-color: white;
+    padding: 40px;
+    border-radius: 8px;
+}
+
+hr{
+    border: 1.5px solid black;
+}
+
+
+
+.register{
+    background-color: white;
+}
+
+
+
+
+/* General Button Styles */
+.pulse-btn {
+    display: inline-block;
+    font-weight: bold;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    text-align: center;
+    outline: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    animation: pulse 1.5s infinite;
+  }
+  
+  /* Animation */
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    50% {
+      transform: scale(1.05); /* Slightly grow */
+      box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+    }
+    100% {
+      transform: scale(1);
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+  }
+  
+  /* Optional: Hover Effect */
+  .pulse-btn:hover {
+    background-color: #0056b3;
+  }
+
+
+
+  footer{
+
+    .social-icons{
+
+        i{
+            background-color:white;
+            color: black;
+            padding: 8px;
+            border-radius: 2px;
+        }
+    }
+
+  }
+
+
+
+
+
+
+
+
+  /* Default styles for desktop (larger screens) */
+h1 {
+    font-size: 3rem; /* Large and prominent heading */
+    line-height: 1.2;
+}
+
+h3 {
+    font-size: 2rem; /* Medium heading */
+    line-height: 1.4;
+}
+
+h6 {
+    font-size: 1.25rem; /* Small heading */
+    line-height: 1.5;
+}
+
+p {
+    font-size: 1rem; /* Standard paragraph text */
+    line-height: 1.6;
+}
+
+
+.testimonials{
+
+    .card{
+
+        img {
+            width: 100%; /* Reduce width for better balance on smaller screens */
+            margin: 0 auto; /* Center the image */
+        }
+    }
+}
+
+/* Styles for tablets (medium screens) */
+@media (max-width: 768px) { 
+    h1 {
+        font-size: 2.5rem; /* Slightly reduced for tablets */
+        line-height: 1.2;
+    }
+
+    h3 {
+        font-size: 1.75rem;
+        line-height: 1.4;
+    }
+
+    h6 {
+        font-size: 1.125rem;
+        line-height: 1.5;
+    }
+
+    p {
+        font-size: 0.9375rem; /* Close to 15px */
+        line-height: 1.6;
+    }
+
+
+    .hero-right{
+        margin-top: 10px;
+    }
+
+
+    .testimonials{
+
+        .card{
+
+            img {
+                width: 20%; /* Reduce width for better balance on smaller screens */
+                margin: 0 auto; /* Center the image */
+            }
+        }
+    }
+}
+
+/* Styles for phones (small screens) */
+@media (max-width: 576px) { 
+    h1 {
+        font-size: 2rem; /* Scaled for smaller screens */
+        line-height: 1.3;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+        line-height: 1.4;
+    }
+
+    h6 {
+        font-size: 1rem; /* Same as body text for consistency */
+        line-height: 1.5;
+    }
+
+    p {
+        font-size: 0.875rem; /* Close to 14px */
+        line-height: 1.6;
+    }
+
+
+
+    .hero-right{
+        margin-top: 10px;
+    }
+
+
+    .testimonials{
+
+        .card{
+
+            img {
+                width: 20%; /* Reduce width for better balance on smaller screens */
+                margin: 0 auto; /* Center the image */
+            }
+        }
+    }
+}
+
+
