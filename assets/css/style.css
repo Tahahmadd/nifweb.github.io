@@ -13,12 +13,33 @@ body{
         color: white;
     }
 
+        position: sticky;
+        top: 0; /* Sticks to the top of the viewport */
+        z-index: 1000; /* Ensures it stays above other elements */
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.155); /* Optional: Adds a subtle shadow */
+
+
+
+
+    .navbar-brand {
+        img{
+        width: 50px; /* Adjust width as needed */
+        height: 50px; /* Match height to maintain the 1:1 ratio */
+        object-fit: cover; /* Ensures the image fits perfectly */
+        display: inline-block; /* Ensures it aligns well with navbar items */
+        }
+      }
+
 
     .dropdown-btn{
         .dropdown-toggle{
             color: white;
         }
         a,li{
+            color: black;
+        }
+
+        :hover{
             color: black;
         }
     }
@@ -105,6 +126,14 @@ hr{
             color: black;
             padding: 8px;
             border-radius: 2px;
+        }
+    }
+
+
+    .logo{
+
+        img{
+            border-radius: 0%;
         }
     }
 
