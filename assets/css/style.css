@@ -5,6 +5,62 @@
 body{
     background-color: rgb(245, 244, 244);
 }
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+
+  .content {
+    flex: 1;
+  }
+
+  .bottom-nav {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f8f9fa;
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+    padding: 10px 20px;
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+
+  .bottom-nav span {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+
+  .enroll-text {
+    color: #dc3545;
+  }
+
+  #timer {
+    color: #0d6efd;
+  }
+.review-content {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3; /* Limit to 3 lines */
+    -webkit-box-orient: vertical;
+    
+    
+  }
+  .read-more {
+    color: rgb(86, 86, 219);
+    cursor: pointer;
+    font-weight: bold;
+    display: inline-block;
+  }
 .navbar{
     background-color:#4ab409;
     color: white;
